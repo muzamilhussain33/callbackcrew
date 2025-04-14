@@ -51,15 +51,15 @@ function ProjectSliderHomeThree({ className }) {
                 <div  className="auto-container">
                     <div className="sec-title light ">
                         <div className="d-flex justify-content-center align-items-center">
-                            <div className="col-lg-7">
+                            <div className="col-lg-7 text-center">
                                 <span className="sub-title">Recently Completed Work</span>
                                 <h2>Improve & Enhance the <br />Tech Projects</h2>
                             </div>
-                            <div className="col-lg-5 text-end btn-box">
+                            {/* <div className="col-lg-5 text-end btn-box ">
                                 <Link  to="/projects" className="theme-btn btn-style-two bg-light">
                                     <span className="btn-title text-black">View all work</span>
                                 </Link >
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 

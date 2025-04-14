@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link  } from 'react-router-dom';
 import BackToTop from '../BackToTop.jsx';
 import HomeOneHeader from '../HomeOne/HomeOneHeader.jsx';
-import FooterHomeOne from '../HomeOne/FooterHomeOne.jsx';
+import FooterHomeOne from '../HomeThree/FooterHomeOne.jsx';
 import HeroPageTitle from './HeroPageTitle.jsx';
 import ServiceDetailsImage from '../../assets/images/resource/service-details.jpg';
 import ServiceDetailsBackground1 from '../../assets/images/resource/contact.jpg';

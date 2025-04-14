@@ -11,18 +11,17 @@ function ChooseUs() {
         <>
             <section className="why-choose-us-two pt-0">
                 <div className="choose-auto-container">
-                    <div className="row">
+                    <div className=" d-flex flex-column align-items-center">
                         {/* Content Column */}
                         <div className="content-column col-xl-6 col-lg-7 col-md-12 col-sm-12 wow fadeInLeft">
                             <div className="inner-column wow fadeInLeft">
-                                <div className="sec-title">
+                                <div className="sec-title text-center">
                                     <span className="sub-title">Why choose our company</span>
                                     <h2>Why you Should Choose Our Services?</h2>
                                     <div className="text">
                                         There are many variations of passages of but the majority have in some form, by injected humour or words which don't look even slightly believable.
                                     </div>
                                 </div>
-
                                 {/* Info Boxes */}
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6 col-sm-12">
@@ -40,7 +39,7 @@ function ChooseUs() {
                                 </div>
 
                                 {/* Skills Section */}
-                                <div className="skills">
+                                {/* <div className="skills">
                                     <div className="skill-item">
                                         <div className="skill-header">
                                             <h6 className="skill-title">Technology</h6>
@@ -74,19 +73,21 @@ function ChooseUs() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
+                                
                             </div>
                         </div>
 
                         {/* Image Column */}
-                        <div className="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12">
+                        {/* <div className="image-column col-xl-6 col-lg-5 col-md-12 col-sm-12 mr-5"> */}
+                        <div className='rounded'>    
                             <div className="image-box wow fadeInRight">
-                                <figure className="image overlay-anim">
-                                    <img src={Image6} alt="Why Choose Us" />
-                                    <a onClick={() => setOpen(true)} className="play-btn lightbox-image">
+                                {/* <figure className="image overlay-anim"> */}
+                                    <img className='rounded' src={Image6} alt="Why Choose Us" />
+                                    {/* <a onClick={() => setOpen(true)} className="play-btn lightbox-image">
                                         <i className="icon fa fa-play"></i>
-                                    </a>
-                                </figure>
+                                    </a> */}
+                                {/* </figure> */}
                             </div>
                         </div>
                     </div>

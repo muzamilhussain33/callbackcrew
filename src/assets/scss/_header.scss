@@ -404,8 +404,8 @@
   padding-right: 80px;
   padding-left: 0;
   .logo-box {
-    background-color: var(--bg-theme-color1);
-    border-right: 10px solid var(--border-theme-color2);
+    // background-color: var(--bg-theme-color1);
+    // border-right: 10px solid var(--border-theme-color2);
     @include flex-center;
     margin-right: 70px;
     margin-top: -40px;
@@ -510,7 +510,7 @@
   .header-lower {
     position: relative;
     .main-box{
-      background-color: #ffffff;
+      // background-color: #ffffff;
       padding-right: 40px;
       .logo-box{
         min-width: 210px;
@@ -518,7 +518,7 @@
         padding: 10px 20px;
         text-align: center;
         margin-top: -40px;
-        background-color: var(--bg-theme-color1);
+        // background-color: var(--bg-theme-color1);
         height: 130px;
         display: flex;
         align-items: center;
@@ -598,8 +598,8 @@
   padding-left: 0;
   padding-right: 80px;
   .logo-box {
-    background-color: var(--bg-theme-color1);
-    @include flex-center;
+    // background-color: var(--bg-theme-color1);
+    // @include flex-center;
     min-width: 233px;
     min-height: 110px;
     margin-right: 120px;

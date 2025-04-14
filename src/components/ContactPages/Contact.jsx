@@ -2,7 +2,7 @@ import React from 'react';
 import { Link  } from 'react-router-dom';
 import BackToTop from '../BackToTop.jsx';
 import HomeOneHeader from '../HomeOne/HomeOneHeader.jsx';
-import FooterHomeOne from '../HomeOne/FooterHomeOne.jsx';
+import FooterHomeOne from '../HomeThree/FooterHomeOne.jsx';
 import HeroPageTitle from './HeroPageTitle.jsx';
 
 function Contact() {
@@ -38,14 +38,14 @@ function Contact() {
 							</div>
 						</div>
 						<div className="row">
-							<div className="col-sm-6">
+							{/* <div className="col-sm-6">
 								<div className="mb-3">
 									<input name="form_subject" className="form-control required" type="text" placeholder="Enter Subject" />
 								</div>
-							</div>
+							</div> */}
 							<div className="col-sm-6">
 								<div className="mb-3">
-									<input name="form_phone" className="form-control" type="text" placeholder="Enter Phone" />
+									<input name="form_phone" className="form-control" type="text" placeholder="Enter contact info" />
 								</div>
 							</div>
 						</div>
@@ -55,7 +55,7 @@ function Contact() {
 						<div className="mb-3">
 							<input name="form_botcheck" className="form-control" type="hidden" value="" />
 							<button type="submit" className="theme-btn btn-style-one" data-loading-text="Please wait..."><span className="btn-title">Send message</span></button>
-							<button type="reset" className="theme-btn btn-style-one"><span className="btn-title">Reset</span></button>
+							{/* <button type="reset" className="theme-btn btn-style-one"><span className="btn-title">Reset</span></button> */}
 						</div>
 					</form>
 				</div>

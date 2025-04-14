@@ -24,12 +24,12 @@ function Header({ action, className, scroll }) {
     return (
         <>
             <header className={`main-header header-style-one ${className || ''}`}>
-                {/* Header Top */}
-                <div className="header-top">
+               
+                {/* <div className="header-top">
                     <div className="inner-container">
 
                         <div className="top-left">
-                            {/*<!-- Info List -->*/}
+                            
                             <ul className="list-style-one">
                                 <li><i className="fa fa-envelope"></i> <Link  href="mailto:hr.callbackcrew@gmail.com">hr.callbackcrew@gmail.com</Link ></li>
                                 <li><i className="fa fa-map-marker"></i> 88 Broklyn Golden Street. New York</li>
@@ -53,34 +53,35 @@ function Header({ action, className, scroll }) {
                             <li><Link  href="#"><span className="fab fa-instagram"></span></Link ></li>
                         </ul>
                     </div>
-                </div>
+                </div> */}
 
                 {/* Header Lower */}
                 <div className="header-lower">
                     <div className="main-box">
                         <div className="logo-box">
                             <div className="logo">
-                                <Link  to="/"><img src={logo1} alt="Company Logo" title="Company" /></Link >
+                                <Link  to="/"><img src={logo2} alt="Company Logo" title="Company" /></Link >
                             </div>
                         </div>
                         <div className="nav-outer">
                             <nav className="nav main-menu">
-                                <Navigation />
                             </nav>
                             <div className="outer-box">
                                 <div className="ui-btn-outer">
-                                    <button className="ui-btn ui-btn search-btn" onClick={toggleSearchPopup}>
+                                    <button className="ui-btn ui-btn search-btn  me-sm-5 mt-2" onClick={toggleSearchPopup}>
                                         <span className="icon lnr lnr-icon-search"></span>
                                     </button>
+                                    <Navigation />
+                                    
                                     {/* <a href="#" className="ui-btn"><i className="lnr-icon-shopping-cart"></i></a> */}
                                 </div>
-                                <Link  href="tel:+92(8800)9806" className="info-btn">
+                                {/* <Link  href="tel:+92(8800)9806" className="info-btn">
                                     <i className="icon fa fa-phone"></i>
                                     <small>Call Anytime</small><br/> + 92 3363313364
-                                </Link >
-                                <Link  to="/contact" className="theme-btn btn-style-one">
+                                </Link > */}
+                                {/* <Link  to="/contact" className="theme-btn btn-style-one">
                                     <span className="btn-title">Get Solution</span>
-                                </Link >
+                                </Link > */}
                                 <div className="mobile-nav-toggler" onClick={toggleMobileMenu}>
                                     <span className="icon lnr-icon-bars"></span>
                                 </div>

@@ -18,21 +18,21 @@ function FooterHomeOne({ className }) {
             
             {/* Widgets Section */}
             <div className="widgets-section">
-                <div className="auto-container">
-                    <div className="row flex-nowrap">
+                <div className="auto-container w-100">
+                    <div className="d-flex align-item-center justify-content-between flex-xl-row flex-column ">
                         {/* Footer Column - About */}
-                        <div className="footer-column col-xl-3 col-lg-12 col-md-6 col-sm-12">
+                        <div className="footer-column col-xl-3 col-lg-12 col-md-6 col-sm-12 ">
                             <div className="footer-widget about-widget">
                                 <div className="logo">
                                     <Link  to="/"><img src={logo} alt="Logo" /></Link >
                                 </div>
-                                <div className="text">Desires to obtain pain of itself, because it is pain, but occasionally circumstances.</div>
-                                <ul className="social-icon-two">
+                                <div className="text fs-5">Desires to obtain pain of itself, because it is pain, but occasionally circumstances.</div>
+                                {/* <ul className="social-icon-two">
                                     <li><Link  to="#"><i className="fab fa-twitter"></i></Link ></li>
                                     <li><Link  to="#"><i className="fab fa-facebook"></i></Link ></li>
                                     <li><Link  to="#"><i className="fab fa-pinterest"></i></Link ></li>
                                     <li><Link  to="#"><i className="fab fa-instagram"></i></Link ></li>
-                                </ul>
+                                </ul> */}
                             </div>
                         </div>
 
@@ -53,9 +53,9 @@ function FooterHomeOne({ className }) {
                         {/* Footer Column - Contact */}
                         <div className="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
                             <div className="footer-widget contact-widget">
-                                <h3 className="widget-title">Contact</h3>
+                                <h3 className="widget-title  fs-3">Contact us</h3>
                                 <div className="widget-content">
-                                    <div className="text">66 Road Broklyn Street, 600 New York, USA</div>
+                                    <div className="text fs-5">66 Road Broklyn Street, 600 New York, USA</div>
                                     <ul className="contact-info">
                                         <li><i className="fa fa-envelope"></i> <Link  to="mailto:hr.callbackcrew@gmail.com">hr.callbackcrew@gmail.com</Link ></li>
                                         <li><i className="fa fa-phone-square"></i> <Link  to="tel:+923363313364">+92 3363313364</Link ></li>
@@ -63,6 +63,13 @@ function FooterHomeOne({ className }) {
                                 </div>
                             </div>
                         </div>
+
+                        <ul className="social-icon-two d-flex flex-row align-items-center justify-content-xl-between flex-xl-column">
+                                    <li><Link  to="#"><i className="fab fa-twitter"></i></Link ></li>
+                                    <li><Link  to="#"><i className="fab fa-facebook"></i></Link ></li>
+                                    <li><Link  to="#"><i className="fab fa-pinterest"></i></Link ></li>
+                                    <li><Link  to="#"><i className="fab fa-instagram"></i></Link ></li>
+                                </ul>
 
                         {/* Footer Column - Gallery */}
                         {/* <div className="footer-column col-xl-3 col-lg-4 col-md-6 col-sm-12">
@@ -85,8 +92,8 @@ function FooterHomeOne({ className }) {
             </div>
 
             {/* Footer Bottom */}
-            <div className="footer-bottom">
-                <div className="auto-container">
+            <div className="footer-bottom ">
+                <div className="auto-container d-flex justify-content-start align-items-start bg-transparent">
                     <div className="inner-container">
                         <div className="copyright-text">&copy; Copyright reserved by <Link  to="/">hr.callbackcrew@gmail.com</Link ></div>
                     </div>

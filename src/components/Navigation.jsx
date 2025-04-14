@@ -33,7 +33,9 @@ function Navigation() {
                     </li>
                 </ul> */}
             </li>
-            <li className="dropdown"><Link  href="#">Pages</Link >
+            <li><Link  to="/projects">Projects</Link ></li>
+            <li><Link  to="/about-us">About</Link ></li>
+            {/* <li className="dropdown"><Link  href="#">Pages</Link >
                 <ul>
                     <li><Link  to="/about-us">About</Link ></li>
                     <li className="dropdown"><Link  href="#">Projects</Link >
@@ -54,13 +56,14 @@ function Navigation() {
                     <li><Link  to="/faq">FAQ</Link ></li>
                     <li><Link  to="/error">Page 404</Link ></li>
                 </ul>
-            </li>
-            <li className="dropdown"><Link  href="#">Services</Link >
+            </li> */}
+            <li><Link  to="/service-details">Service</Link ></li>
+            {/* <li className="dropdown"><Link  href="#">Services</Link >
                 <ul>
                     <li><Link  to="/services">Services List</Link ></li>
                     <li><Link  to="/service-details">Service Details</Link ></li>
                 </ul>
-            </li>
+            </li> */}
             {/* <li className="dropdown"><Link  href="#">Shop</Link >
                 <ul>
                     <li><Link  to="/products">Products</Link ></li>

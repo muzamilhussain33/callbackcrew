@@ -31,6 +31,7 @@ import ProductsDetails from "./components/ShopPages/ProductsDetails.jsx";
 import Cart from "./components/ShopPages/Cart.jsx"
 import Checkout from "./components/ShopPages/Checkout.jsx";
 
+
 const router = createBrowserRouter([
   {
     path:'/',

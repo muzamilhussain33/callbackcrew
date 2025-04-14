@@ -55,12 +55,12 @@ function ContactSectionThree() {
                                         </div>
 
                                         <div className="form-group col-lg-6 col-md-6 col-sm-12">
-                                            <input type="text" name="Phone" placeholder="Phone Number" required />
+                                            <input type="text" name="Phone" placeholder="Contact info" required />
                                         </div>
 
-                                        <div className="form-group col-lg-6 col-md-6 col-sm-12">
+                                        {/* <div className="form-group col-lg-6 col-md-6 col-sm-12">
                                             <input type="text" name="subject" placeholder="Subject" required />
-                                        </div>
+                                        </div> */}
 
                                         <div className="form-group col-lg-12 col-md-12 col-sm-12">
                                             <textarea name="message" placeholder="Write Message" required></textarea>
