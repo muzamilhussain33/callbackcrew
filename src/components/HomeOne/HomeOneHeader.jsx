@@ -23,7 +23,7 @@ function Header({ action, className, scroll }) {
 
     return (
         <>
-            <header className={`main-header header-style-one ${className || ''}`}>
+            <header className={`main-header header-style-one  ${className || ''}`}>
                
                 {/* <div className="header-top">
                     <div className="inner-container">

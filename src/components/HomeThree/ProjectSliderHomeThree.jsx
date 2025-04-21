@@ -11,6 +11,9 @@ import ProjectImage1 from '../../assets/images/resource/project-8.jpg';
 import ProjectImage2 from '../../assets/images/resource/project-9.jpg'; 
 import ProjectImage3 from '../../assets/images/resource/project-10.jpg';
 import ProjectImage4 from '../../assets/images/resource/project-11.jpg'; 
+import ProjectImage5 from '../../assets/images/resource/project-12.jpg'; 
+import ProjectImage6 from '../../assets/images/resource/project-13.jpg'; 
+import ProjectImage7 from '../../assets/images/resource/project-14.jpg';
 
 // Swiper options
 const swiperOptions = {
@@ -89,7 +92,7 @@ function ProjectSliderHomeThree({ className }) {
                                         <figure className="image">
                                             <Link  to="/projects-details"><img src={ProjectImage2} alt="Project 2" /></Link >
                                         </figure>
-                                        <div className="overlay-box">
+                                        <div className="overlay-box ">
                                             <Link  to="/projects-details" className="icon">
                                                 <i className="fa fa-long-arrow-alt-right"></i>
                                             </Link >
@@ -159,7 +162,7 @@ function ProjectSliderHomeThree({ className }) {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <figure className="image">
-                                            <Link  to="/projects-details"><img src={ProjectImage2} alt="Project 2" /></Link >
+                                            <Link  to="/projects-details"><img src={ProjectImage5} alt="Project 2" /></Link >
                                         </figure>
                                         <div className="overlay-box">
                                             <Link  to="/projects-details" className="icon">
@@ -177,7 +180,7 @@ function ProjectSliderHomeThree({ className }) {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <figure className="image">
-                                            <Link  to="/projects-details"><img src={ProjectImage3} alt="Project 3" /></Link >
+                                            <Link  to="/projects-details"><img src={ProjectImage6} alt="Project 3" /></Link >
                                         </figure>
                                         <div className="overlay-box">
                                             <Link  to="/projects-details" className="icon">
@@ -195,7 +198,7 @@ function ProjectSliderHomeThree({ className }) {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <figure className="image">
-                                            <Link  to="/projects-details"><img src={ProjectImage4} alt="Project 4" /></Link >
+                                            <Link  to="/projects-details"><img src={ProjectImage7} alt="Project 4" /></Link >
                                         </figure>
                                         <div className="overlay-box">
                                             <Link  to="/projects-details" className="icon">

@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 
 // Import images
 import Image1 from '../../assets/images/main-slider/5.jpg'; 
-import Image2 from '../../assets/images/main-slider/4.jpg'; 
+import Image2 from '../../assets/images/main-slider/4.jpeg'; 
 
 const swiperOptions = {
     modules: [Autoplay, Navigation, Pagination],

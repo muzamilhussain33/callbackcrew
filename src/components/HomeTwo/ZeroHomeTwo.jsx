@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import SlideImage1 from '../../assets/images/main-slider/2.jpg';
+import SlideImage1 from '../../assets/images/main-slider/2.jpeg';
 import SlideImage2 from '../../assets/images/main-slider/1.jpg';
 
 // Swiper configuration options
