@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link  } from 'react-router-dom';
 // Importing the image files
-import ProjectImage1 from '../../assets/images/resource/project-1.jpg';
-import ProjectImage2 from '../../assets/images/resource/project-2.jpg';
-import ProjectImage3 from '../../assets/images/resource/project-3.jpg';
-import ProjectImage4 from '../../assets/images/resource/project-4.jpg';
+import ProjectImage1 from '../../assets/images/resource/project-1.jpeg';
+import ProjectImage2 from '../../assets/images/resource/project-2.jpeg';
+import ProjectImage3 from '../../assets/images/resource/project-3.jpeg';
+import ProjectImage4 from '../../assets/images/resource/project-4.jpeg';
+import ProjectImage5 from '../../assets/images/resource/project-5.jpeg';
+import ProjectImage6 from '../../assets/images/resource/project-6.jpeg';
 
 function Projects() {
     return (
@@ -25,7 +27,7 @@ function Projects() {
                                     </Link >
                                 </div>
                                 <div className="content-box">
-                                    <h4 className="title"><Link  to="/projects-details">Tech Solutions</Link ></h4>
+                                    <h4 className="title"><Link  to="/projects-details">Diom</Link ></h4>
                                     <span className="cat">DESIGN / IDEAS</span>
                                 </div>
                             </div>
@@ -46,7 +48,7 @@ function Projects() {
                                     </Link >
                                 </div>
                                 <div className="content-box">
-                                    <h4 className="title"><Link  to="/projects-details">Smart Visions</Link ></h4>
+                                    <h4 className="title"><Link  to="/projects-details">Matw</Link ></h4>
                                     <span className="cat">DESIGN / IDEAS</span>
                                 </div>
                             </div>
@@ -67,7 +69,7 @@ function Projects() {
                                     </Link >
                                 </div>
                                 <div className="content-box">
-                                    <h4 className="title"><Link  to="/projects-details">Platform Integration</Link ></h4>
+                                    <h4 className="title"><Link  to="/projects-details">Maple HR</Link ></h4>
                                     <span className="cat">DESIGN / IDEAS</span>
                                 </div>
                             </div>
@@ -88,7 +90,7 @@ function Projects() {
                                     </Link >
                                 </div>
                                 <div className="content-box">
-                                    <h4 className="title"><Link  to="/projects-details">Web Development</Link ></h4>
+                                    <h4 className="title"><Link  to="/projects-details">Xplora</Link ></h4>
                                     <span className="cat">DESIGN / IDEAS</span>
                                 </div>
                             </div>
@@ -101,7 +103,7 @@ function Projects() {
                                 <div className="image-box">
                                     <figure className="image">
                                         <Link  to="/projects-details">
-                                            <img src={ProjectImage1} alt="Tech Solutions" />
+                                            <img src={ProjectImage5} alt="Tech Solutions" />
                                         </Link >
                                     </figure>
                                     <Link  to="/projects-details" className="icon">
@@ -109,7 +111,7 @@ function Projects() {
                                     </Link >
                                 </div>
                                 <div className="content-box">
-                                    <h4 className="title"><Link  to="/projects-details">Tech Solutions</Link ></h4>
+                                    <h4 className="title"><Link  to="/projects-details">Join Reflect</Link ></h4>
                                     <span className="cat">DESIGN / IDEAS</span>
                                 </div>
                             </div>
@@ -122,7 +124,7 @@ function Projects() {
                                 <div className="image-box">
                                     <figure className="image">
                                         <Link  to="/projects-details">
-                                            <img src={ProjectImage2} alt="Smart Visions" />
+                                            <img src={ProjectImage6} alt="Smart Visions" />
                                         </Link >
                                     </figure>
                                     <Link  to="/projects-details" className="icon">
@@ -130,7 +132,7 @@ function Projects() {
                                     </Link >
                                 </div>
                                 <div className="content-box">
-                                    <h4 className="title"><Link  to="/projects-details">Smart Visions</Link ></h4>
+                                    <h4 className="title"><Link  to="/projects-details">Zirtue</Link ></h4>
                                     <span className="cat">DESIGN / IDEAS</span>
                                 </div>
                             </div>

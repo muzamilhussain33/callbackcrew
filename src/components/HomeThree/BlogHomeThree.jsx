@@ -22,7 +22,7 @@ function NewsSection({ className }) {
                         <div className="inner-box">
                             <div className="image-box">
                                 <figure className="image">
-                                    <Link  to="/news-details">
+                                    <Link  to="/news-detailsb1">
                                         <img src={NewsImage1} alt="News 1" />
                                     </Link >
                                 </figure>
@@ -34,8 +34,8 @@ function NewsSection({ className }) {
                                     <li><i className="fa fa-tag"></i> Technology</li>
                                 </ul>
                                 <h4 className="title">
-                                    <Link  to="/news-details">
-                                        Professional technology information & solutions are just like…
+                                    <Link  to="/news-detailsb1">
+                                    Website and App Development: Your Friendly Guide to...
                                     </Link >
                                 </h4>
                             </div>
@@ -55,8 +55,8 @@ function NewsSection({ className }) {
                         <div className="inner-box">
                             <div className="image-box">
                                 <figure className="image">
-                                    <Link  to="/news-details">
-                                        <img src={NewsImage2} alt="News 2" />
+                                    <Link  to="/news-detailsb2">
+                                        <img src={NewsImage3} alt="News 2" />
                                     </Link >
                                 </figure>
                                 <span className="date"><b>28</b> OCT</span>
@@ -67,8 +67,8 @@ function NewsSection({ className }) {
                                     <li><i className="fa fa-tag"></i> Technology</li>
                                 </ul>
                                 <h4 className="title">
-                                    <Link  to="/news-details">
-                                        Professional technology information & solutions are just like…
+                                    <Link  to="/news-detailsb2">
+                                    The Art & Science of UI/UX Design: Crafting Seamless…
                                     </Link >
                                 </h4>
                             </div>
@@ -88,8 +88,8 @@ function NewsSection({ className }) {
                         <div className="inner-box">
                             <div className="image-box">
                                 <figure className="image">
-                                    <Link  to="/news-details">
-                                        <img src={NewsImage3} alt="News 3" />
+                                    <Link  to="/news-detailsb3">
+                                        <img src={NewsImage2} alt="News 3" />
                                     </Link >
                                 </figure>
                                 <span className="date"><b>28</b> OCT</span>
@@ -100,8 +100,8 @@ function NewsSection({ className }) {
                                     <li><i className="fa fa-tag"></i> Technology</li>
                                 </ul>
                                 <h4 className="title">
-                                    <Link  to="/news-details">
-                                        Professional technology information & solutions are just like…
+                                    <Link  to="/news-detailsb3">
+                                    7 Proven Social Media Marketing Strategies to Skyrocket…
                                     </Link >
                                 </h4>
                             </div>

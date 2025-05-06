@@ -30,6 +30,8 @@ import ProductsSidebar from "./components/ShopPages/ProductsSidebar.jsx";
 import ProductsDetails from "./components/ShopPages/ProductsDetails.jsx";
 import Cart from "./components/ShopPages/Cart.jsx"
 import Checkout from "./components/ShopPages/Checkout.jsx";
+import NewsDetailTwo from "./components/NewsPages/NewsDetailsTwo.jsx";
+import NewsDetailThree from "./components/NewsPages/NewsDetailsThree.jsx";
 
 
 const router = createBrowserRouter([
@@ -118,8 +120,16 @@ const router = createBrowserRouter([
         element: <News />
       },
       {
-        path: "/news-details",
+        path: "/news-detailsb1",
         element: <NewsDetails />
+      },
+      {
+        path: "/news-detailsb2",
+        element: <NewsDetailTwo />
+      },
+      {
+        path: "/news-detailsb3",
+        element: <NewsDetailThree />
       },
       {
         path: "/contact-pages",

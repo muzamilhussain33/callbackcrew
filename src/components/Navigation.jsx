@@ -5,7 +5,7 @@ function Navigation() {
     return (
         <nav className="nav main-menu">
         <ul className="navigation">
-            <li className="current"><Link to="/">Home</Link >
+            <li><Link to="/">Home</Link >
                 {/* <ul>
                     <li><Link  to="/">Home Layout 1</Link ></li>
                     <li><Link  to="/home-two">Home Layout 2</Link ></li>
@@ -35,7 +35,7 @@ function Navigation() {
             </li>
             <li><Link  to="/projects">Projects</Link ></li>
             <li><Link  to="/about-us">About</Link ></li>
-            {/* <li className="dropdown"><Link  href="#">Pages</Link >
+            {/* <li className="dropdown" className="current"><Link  href="#">Pages</Link >
                 <ul>
                     <li><Link  to="/about-us">About</Link ></li>
                     <li className="dropdown"><Link  href="#">Projects</Link >

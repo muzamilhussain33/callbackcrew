@@ -2,7 +2,7 @@ import React from 'react';
 import { Link  } from 'react-router-dom';
 import BackToTop from '../BackToTop.jsx';
 import HomeOneHeader from '../HomeOne/HomeOneHeader.jsx';
-import FooterHomeOne from '../HomeOne/FooterHomeOne.jsx';
+import FooterHomeOne from '../HomeThree/FooterHomeOne.jsx';
 import HeroPageTitle from './HeroPageTitle.jsx';
 import ProgressBar2 from '../../lib/ProgressBar2';
 
@@ -91,7 +91,7 @@ function TeamDetails() {
                 </div>
             </section>
 
-            <section className="team-contact-form">
+            {/* <section className="team-contact-form">
                 <div className="container pb-100">
                     <div className="sec-title text-center">
                         <span className="sub-title">Contact With Us Now</span>
@@ -140,7 +140,7 @@ function TeamDetails() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <FooterHomeOne />
             <BackToTop />

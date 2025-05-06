@@ -79,7 +79,7 @@ function ProjectSliderHomeThree({ className }) {
                                                 <i className="fa fa-long-arrow-alt-right"></i>
                                             </Link >
                                             <h4 className="title">
-                                                <Link  to="/projects-details">Tech Solutions</Link >
+                                                <Link  to="/projects-details"  className="fs-5">Tech Solutions</Link >
                                             </h4>
                                             <span className="cat">Read more</span>
                                         </div>
@@ -97,7 +97,7 @@ function ProjectSliderHomeThree({ className }) {
                                                 <i className="fa fa-long-arrow-alt-right"></i>
                                             </Link >
                                             <h4 className="title">
-                                                <Link  to="/projects-details">Tech Solutions</Link >
+                                                <Link  to="/projects-details"  className="fs-5">Tech Solutions</Link >
                                             </h4>
                                             <span className="cat">Read more</span>
                                         </div>
@@ -115,7 +115,7 @@ function ProjectSliderHomeThree({ className }) {
                                                 <i className="fa fa-long-arrow-alt-right"></i>
                                             </Link >
                                             <h4 className="title">
-                                                <Link  to="/projects-details">Tech Solutions</Link >
+                                                <Link  to="/projects-details"  className="fs-5">Tech Solutions</Link >
                                             </h4>
                                             <span className="cat">Read more</span>
                                         </div>
@@ -133,7 +133,7 @@ function ProjectSliderHomeThree({ className }) {
                                                 <i className="fa fa-long-arrow-alt-right"></i>
                                             </Link >
                                             <h4 className="title">
-                                                <Link  to="/projects-details">Tech Solutions</Link >
+                                                <Link  to="/projects-details"  className="fs-5">Tech Solutions</Link >
                                             </h4>
                                             <span className="cat">Read more</span>
                                         </div>
@@ -151,7 +151,7 @@ function ProjectSliderHomeThree({ className }) {
                                                 <i className="fa fa-long-arrow-alt-right"></i>
                                             </Link >
                                             <h4 className="title">
-                                                <Link  to="/projects-details">Tech Solutions</Link >
+                                                <Link  to="/projects-details"  className="fs-5">Tech Solutions</Link >
                                             </h4>
                                             <span className="cat">Read more</span>
                                         </div>
@@ -169,7 +169,7 @@ function ProjectSliderHomeThree({ className }) {
                                                 <i className="fa fa-long-arrow-alt-right"></i>
                                             </Link >
                                             <h4 className="title">
-                                                <Link  to="/projects-details">Tech Solutions</Link >
+                                                <Link  to="/projects-details"  className="fs-5">Tech Solutions</Link >
                                             </h4>
                                             <span className="cat">Read more</span>
                                         </div>
@@ -187,7 +187,7 @@ function ProjectSliderHomeThree({ className }) {
                                                 <i className="fa fa-long-arrow-alt-right"></i>
                                             </Link >
                                             <h4 className="title">
-                                                <Link  to="/projects-details">Tech Solutions</Link >
+                                                <Link  to="/projects-details" className='fs-5'>Tech Solutions</Link >
                                             </h4>
                                             <span className="cat">Read more</span>
                                         </div>
@@ -205,7 +205,7 @@ function ProjectSliderHomeThree({ className }) {
                                                 <i className="fa fa-long-arrow-alt-right"></i>
                                             </Link >
                                             <h4 className="title">
-                                                <Link  to="/projects-details">Tech Solutions</Link >
+                                                <Link  to="/projects-details" className="fs-5">Tech Solutions</Link >
                                             </h4>
                                             <span className="cat">Read more</span>
                                         </div>
