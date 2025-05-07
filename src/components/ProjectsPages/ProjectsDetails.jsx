@@ -11,7 +11,7 @@ import "swiper/css/navigation";
 import 'swiper/css/pagination';
 
 // Import images
-import projectDetailsImage from '../../assets/images/resource/project-details.jpg';
+import projectDetailsImage from '../../assets/images/resource/project-details.jpeg';
 import project1 from '../../assets/images/resource/project-1.jpg';
 import project2 from '../../assets/images/resource/project-2.jpg';
 import project3 from '../../assets/images/resource/project-3.jpg';
@@ -133,14 +133,14 @@ function ProjectsDetails() {
                                 <ul className="project-details__pagination list-unstyled clearfix">
                                     <li className="next">
                                         <div className="icon">
-                                            <Link  to="#" aria-label="Previous"><i className="lnr lnr-icon-arrow-left"></i></Link >
+                                            <Link  to="/projects-details5" aria-label="Previous"><i className="lnr lnr-icon-arrow-left"></i></Link >
                                         </div>
                                         <div className="content">Previous</div>
                                     </li>
                                     <li className="previous">
                                         <div className="content">Next</div>
                                         <div className="icon">
-                                            <Link  to="#" aria-label="Next"><i className="lnr lnr-icon-arrow-right"></i></Link >
+                                            <Link  to="/projects-details1" aria-label="Next"><i className="lnr lnr-icon-arrow-right"></i></Link >
                                         </div>
                                     </li>
                                 </ul>

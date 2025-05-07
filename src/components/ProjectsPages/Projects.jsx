@@ -39,16 +39,16 @@ function Projects() {
                             <div className="inner-box">
                                 <div className="image-box">
                                     <figure className="image">
-                                        <Link  to="/projects-details">
+                                        <Link  to="/projects-details1">
                                             <img src={ProjectImage2} alt="Smart Visions" />
                                         </Link >
                                     </figure>
-                                    <Link  to="/projects-details" className="icon">
+                                    <Link  to="/projects-details1" className="icon">
                                         <i className="fa fa-long-arrow-alt-right"></i>
                                     </Link >
                                 </div>
                                 <div className="content-box">
-                                    <h4 className="title"><Link  to="/projects-details">Matw</Link ></h4>
+                                    <h4 className="title"><Link  to="/projects-details1">Matw</Link ></h4>
                                     <span className="cat">DESIGN / IDEAS</span>
                                 </div>
                             </div>
@@ -60,16 +60,16 @@ function Projects() {
                             <div className="inner-box">
                                 <div className="image-box">
                                     <figure className="image">
-                                        <Link  to="/projects-details">
+                                        <Link  to="/projects-details2">
                                             <img src={ProjectImage3} alt="Platform Integration" />
                                         </Link >
                                     </figure>
-                                    <Link  to="/projects-details" className="icon">
+                                    <Link  to="/projects-details2" className="icon">
                                         <i className="fa fa-long-arrow-alt-right"></i>
                                     </Link >
                                 </div>
                                 <div className="content-box">
-                                    <h4 className="title"><Link  to="/projects-details">Maple HR</Link ></h4>
+                                    <h4 className="title"><Link  to="/projects-details2">Maple HR</Link ></h4>
                                     <span className="cat">DESIGN / IDEAS</span>
                                 </div>
                             </div>
@@ -81,16 +81,16 @@ function Projects() {
                             <div className="inner-box">
                                 <div className="image-box">
                                     <figure className="image">
-                                        <Link  to="/projects-details">
+                                        <Link  to="/projects-details3">
                                             <img src={ProjectImage4} alt="Web Development" />
                                         </Link >
                                     </figure>
-                                    <Link  to="/projects-details" className="icon">
+                                    <Link  to="/projects-details3" className="icon">
                                         <i className="fa fa-long-arrow-alt-right"></i>
                                     </Link >
                                 </div>
                                 <div className="content-box">
-                                    <h4 className="title"><Link  to="/projects-details">Xplora</Link ></h4>
+                                    <h4 className="title"><Link  to="/projects-details3">Xplora</Link ></h4>
                                     <span className="cat">DESIGN / IDEAS</span>
                                 </div>
                             </div>
@@ -102,16 +102,16 @@ function Projects() {
                             <div className="inner-box">
                                 <div className="image-box">
                                     <figure className="image">
-                                        <Link  to="/projects-details">
+                                        <Link  to="/projects-details4">
                                             <img src={ProjectImage5} alt="Tech Solutions" />
                                         </Link >
                                     </figure>
-                                    <Link  to="/projects-details" className="icon">
+                                    <Link  to="/projects-details4" className="icon">
                                         <i className="fa fa-long-arrow-alt-right"></i>
                                     </Link >
                                 </div>
                                 <div className="content-box">
-                                    <h4 className="title"><Link  to="/projects-details">Join Reflect</Link ></h4>
+                                    <h4 className="title"><Link  to="/projects-details4">Join Reflect</Link ></h4>
                                     <span className="cat">DESIGN / IDEAS</span>
                                 </div>
                             </div>
@@ -123,16 +123,16 @@ function Projects() {
                             <div className="inner-box">
                                 <div className="image-box">
                                     <figure className="image">
-                                        <Link  to="/projects-details">
+                                        <Link  to="/projects-details5">
                                             <img src={ProjectImage6} alt="Smart Visions" />
                                         </Link >
                                     </figure>
-                                    <Link  to="/projects-details" className="icon">
+                                    <Link  to="/projects-details5" className="icon">
                                         <i className="fa fa-long-arrow-alt-right"></i>
                                     </Link >
                                 </div>
                                 <div className="content-box">
-                                    <h4 className="title"><Link  to="/projects-details">Zirtue</Link ></h4>
+                                    <h4 className="title"><Link  to="/projects-details5">Zirtue</Link ></h4>
                                     <span className="cat">DESIGN / IDEAS</span>
                                 </div>
                             </div>

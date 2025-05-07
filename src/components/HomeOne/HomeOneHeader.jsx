@@ -129,7 +129,7 @@ function Header({ action, className, scroll }) {
                                 </div>
                             </li>
                         </ul>
-                        <ul className="social-Link s">
+                        <ul className="social-Link d-flex align-items-center justify-content-evenly">
                             <li><Link  href="#"><i className="fab fa-twitter"></i></Link ></li>
                             <li><Link  href="#"><i className="fab fa-facebook-f"></i></Link ></li>
                             <li><Link  href="#"><i className="fab fa-pinterest"></i></Link ></li>

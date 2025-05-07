@@ -32,6 +32,11 @@ import Cart from "./components/ShopPages/Cart.jsx"
 import Checkout from "./components/ShopPages/Checkout.jsx";
 import NewsDetailTwo from "./components/NewsPages/NewsDetailsTwo.jsx";
 import NewsDetailThree from "./components/NewsPages/NewsDetailsThree.jsx";
+import ProjectsDetails1 from "./components/ProjectsPages/ProjectDetails1.jsx";
+import ProjectsDetails2 from "./components/ProjectsPages/ProjectDetails2.jsx";
+import ProjectsDetails3 from "./components/ProjectsPages/ProjectDetails3.jsx";
+import ProjectsDetails4 from "./components/ProjectsPages/ProjectDetails4.jsx";
+import ProjectsDetails5 from "./components/ProjectsPages/ProjectDetails5.jsx";
 
 
 const router = createBrowserRouter([
@@ -41,6 +46,7 @@ const router = createBrowserRouter([
     children:[
       {
         // index:true,
+        path: "/",
         element: <HomeOne />
       },
      
@@ -150,6 +156,26 @@ const router = createBrowserRouter([
       {
         path: "/projects-details",
         element: <ProjectsDetails />
+      },
+      {
+        path: "/projects-details1",
+        element: <ProjectsDetails1 />
+      },
+      {
+        path: "/projects-details2",
+        element: <ProjectsDetails2 />
+      },
+      {
+        path: "/projects-details3",
+        element: <ProjectsDetails3 />
+      },
+      {
+        path: "/projects-details4",
+        element: <ProjectsDetails4 />
+      },
+      {
+        path: "/projects-details5",
+        element: <ProjectsDetails5 />
       },
       {
         path: "/Faq",

@@ -79,7 +79,7 @@ function ProjectSliderHomeThree({ className }) {
                                                 <i className="fa fa-long-arrow-alt-right"></i>
                                             </Link >
                                             <h4 className="title">
-                                                <Link  to="/projects-details"  className="fs-5">Tech Solutions</Link >
+                                                <Link  to="/projects-details"  className="fs-5">Diom</Link >
                                             </h4>
                                             <span className="cat">Read more</span>
                                         </div>
@@ -97,7 +97,7 @@ function ProjectSliderHomeThree({ className }) {
                                                 <i className="fa fa-long-arrow-alt-right"></i>
                                             </Link >
                                             <h4 className="title">
-                                                <Link  to="/projects-details"  className="fs-5">Tech Solutions</Link >
+                                                <Link  to="/projects-details"  className="fs-5">Join Reflect</Link >
                                             </h4>
                                             <span className="cat">Read more</span>
                                         </div>
@@ -108,14 +108,14 @@ function ProjectSliderHomeThree({ className }) {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <figure className="image">
-                                            <Link  to="/projects-details"><img src={ProjectImage3} alt="Project 3" /></Link >
+                                            <Link  to="/projects-details5"><img src={ProjectImage3} alt="Project 3" /></Link >
                                         </figure>
                                         <div className="overlay-box">
-                                            <Link  to="/projects-details" className="icon">
+                                            <Link  to="/projects-details5" className="icon">
                                                 <i className="fa fa-long-arrow-alt-right"></i>
                                             </Link >
                                             <h4 className="title">
-                                                <Link  to="/projects-details"  className="fs-5">Tech Solutions</Link >
+                                                <Link  to="/projects-details5"  className="fs-5">Zirtue</Link >
                                             </h4>
                                             <span className="cat">Read more</span>
                                         </div>
@@ -126,14 +126,14 @@ function ProjectSliderHomeThree({ className }) {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <figure className="image">
-                                            <Link  to="/projects-details"><img src={ProjectImage4} alt="Project 4" /></Link >
+                                            <Link  to="/projects-details3"><img src={ProjectImage4} alt="Project 4" /></Link >
                                         </figure>
                                         <div className="overlay-box">
-                                            <Link  to="/projects-details" className="icon">
+                                            <Link  to="/projects-details3" className="icon">
                                                 <i className="fa fa-long-arrow-alt-right"></i>
                                             </Link >
                                             <h4 className="title">
-                                                <Link  to="/projects-details"  className="fs-5">Tech Solutions</Link >
+                                                <Link  to="/projects-details3"  className="fs-5">Xplora</Link >
                                             </h4>
                                             <span className="cat">Read more</span>
                                         </div>
@@ -144,14 +144,14 @@ function ProjectSliderHomeThree({ className }) {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <figure className="image">
-                                            <Link  to="/projects-details"><img src={ProjectImage1} alt="Project 1" /></Link >
+                                            <Link  to="/projects-details2"><img src={ProjectImage1} alt="Project 1" /></Link >
                                         </figure>
                                         <div className="overlay-box ">
-                                            <Link  to="/projects-details" className="icon">
+                                            <Link  to="/projects-details2" className="icon">
                                                 <i className="fa fa-long-arrow-alt-right"></i>
                                             </Link >
                                             <h4 className="title">
-                                                <Link  to="/projects-details"  className="fs-5">Tech Solutions</Link >
+                                                <Link  to="/projects-details2"  className="fs-5">Maple HR</Link >
                                             </h4>
                                             <span className="cat">Read more</span>
                                         </div>
@@ -162,14 +162,14 @@ function ProjectSliderHomeThree({ className }) {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <figure className="image">
-                                            <Link  to="/projects-details"><img src={ProjectImage5} alt="Project 2" /></Link >
+                                            <Link  to="/projects-details1"><img src={ProjectImage5} alt="Project 2" /></Link >
                                         </figure>
                                         <div className="overlay-box">
-                                            <Link  to="/projects-details" className="icon">
+                                            <Link  to="/projects-details1" className="icon">
                                                 <i className="fa fa-long-arrow-alt-right"></i>
                                             </Link >
                                             <h4 className="title">
-                                                <Link  to="/projects-details"  className="fs-5">Tech Solutions</Link >
+                                                <Link  to="/projects-details1"  className="fs-5">Matw</Link >
                                             </h4>
                                             <span className="cat">Read more</span>
                                         </div>
@@ -187,7 +187,7 @@ function ProjectSliderHomeThree({ className }) {
                                                 <i className="fa fa-long-arrow-alt-right"></i>
                                             </Link >
                                             <h4 className="title">
-                                                <Link  to="/projects-details" className='fs-5'>Tech Solutions</Link >
+                                                <Link  to="/projects-details" className='fs-5'>Idillionaire</Link >
                                             </h4>
                                             <span className="cat">Read more</span>
                                         </div>
@@ -198,14 +198,14 @@ function ProjectSliderHomeThree({ className }) {
                                 <div className="inner-box">
                                     <div className="image-box">
                                         <figure className="image">
-                                            <Link  to="/projects-details"><img src={ProjectImage7} alt="Project 4" /></Link >
+                                            <Link  to="/projects-details5"><img src={ProjectImage3} alt="Project 4" /></Link >
                                         </figure>
                                         <div className="overlay-box">
-                                            <Link  to="/projects-details" className="icon">
+                                            <Link  to="/projects-details5" className="icon">
                                                 <i className="fa fa-long-arrow-alt-right"></i>
                                             </Link >
                                             <h4 className="title">
-                                                <Link  to="/projects-details" className="fs-5">Tech Solutions</Link >
+                                                <Link  to="/projects-details5" className="fs-5">Zirtue</Link >
                                             </h4>
                                             <span className="cat">Read more</span>
                                         </div>
