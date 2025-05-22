@@ -76,31 +76,36 @@ function ProjectsDetails5() {
                         <div className="row">
                             <div className="col-xl-8 col-lg-8">
                             <div className="project-details__content-left">
-							<h3 className="">Here to Know About This Project</h3>
-							<p className="">There are many variations of passages of psum
-								available, but the majority have suffered alteration in some form, by injected
-								humour, or randomised words which don't look even slightly believable. If you are
-								going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
-								embarrassing hidden in the middle of text. Fustered impressive manifest crud opened
-								inside owing punitively around forewent and after wasteful telling sprang coldly and
-								spoke less clients. Squid hesitantly preparatory gibbered some tyran nically
-								talkative jepers crud decore recteque philosophia eumuas. </p>
-							<p className="mb-5">Beyond more stoic this along goodness hey this this
-								wow manatee mongoose one as since a far flustered impressive manifest far crud
-								opened inside owing punitively around forewent and after wasteful telling sprang
-								coldly and spoke less clients. Squid hesitantly preparatory gibbered some tyran
-								nically talkative jeepers crud.</p>
-							<h3 className="">Project Challenges</h3>
-							<p className="mb-5">Eque porro est qui dolorem ipsum quia quaed inventore
-								veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus
-								quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is
-								simply dummy text of the printing and typesetting.</p>
-							<h3 className="">Organic Food Supply</h3>
+							<h3 className="">Zirtue – Relationship-Based Lending Platform</h3>
+							<p className="">We create a Lend & Borrow application for all types of users. This is a USA-based Project. Our theme is that If someone has extra money he can trigger a message to his friends to give money on their interest & if someone has a shortage of money he can lend it from someone That is why we call our project headline “Loved ones & money do mix”. We create a smooth way of lending & borrowing money & also make returns very simple and easy on the pocket.</p>
+							<p className="mb-5">Zirtue is a peer-to-peer lending platform that simplifies and formalizes loans between friends and family. It allows users to lend or borrow money with structured repayment plans, promoting financial accountability and transparency. I contributed to this project by [insert your role or contribution, e.g., "working on the frontend", "improving user experience", or "collaborating on UI components in React"], helping ensure a smooth, secure, and user-friendly experience.</p>
+							<h3 className="">Technologies Used : </h3>
+							<ul className="mb-5">
+                                <li>MongoDb</li>
+                                <li>React Native</li>
+                                <li>Reactjs</li>
+                                <li>Firebase</li>
+                                <li>Node js</li>
+                                <li>ACH payments</li>
+                                <li>Dwolla</li>
+                                <li>Plaid</li>
+                                <li>Security Standard</li>
+                                <li>code audit</li>
+                                <li>Sms integration</li>
+                                <li>Email Integration</li>
+                                <li>Notification System</li>
+                                <li>Interest Rate in USA</li>
+                                <li>Scheduling tasks for recurring payment</li>
+                                <li>Amortization Payment Formula</li>
+                                <li>Monthly scheduler and cron job for payments</li>
+                                <li>Problem Solving techniques</li>
+                            </ul>
+							{/* <h3 className="">Organic Food Supply</h3>
 							<p className="">When an unknown printer took a galley of type and
 								scrambled it to make a type specimen book. It has survived not only five centuries,
 								but also the leap into electronic typesetting, remaining essentially unchanged. It
 								was popularised in the 1960s with the release of Letraset sheets containing. Neque
-								porro est qui dolorem ipsumo.</p>
+								porro est qui dolorem ipsumo.</p> */}
 						</div>
                             </div>
                             <div className="col-xl-4 col-lg-4">
@@ -109,7 +114,7 @@ function ProjectsDetails5() {
                                         <ul className="list-unstyled project-details__details-list">
                                             <li><p className="project-details__client">Date</p><h4 className="project-details__name">10 January, 2023</h4></li>
                                             <li><p className="project-details__client">Client</p><h4 className="project-details__name">Kodesolution Ltd</h4></li>
-                                            <li><p className="project-details__client">Website</p><h4 className="project-details__name">www.domain.com</h4></li>
+                                            <li><p className="project-details__client">Website</p><a href="https://www.zirtue.com" className="project-details__name text-black ">https://www.zirtue.com</a></li>
                                             <li><p className="project-details__client">Location</p><h4 className="project-details__name">New York, USA</h4></li>
                                             <li><p className="project-details__client">Value</p><h4 className="project-details__name">$12,367</h4></li>
                                             <li>

@@ -16,8 +16,8 @@ function ServicesHomeThree({ className }) {
 					<div className="service-block-three col wow fadeInUp">
 						<div className="inner-box ">
 							<i className="icon flaticon-business-002-graph"></i>
-							<h6 className="title"><Link  to="/service-details">Product <br/>Development</Link ></h6>
-							<div className="text">Providing the solutions for tech business</div>
+							<h6 className="title"><Link  service-detailsto="/service-details4">Web <br/>Development</Link ></h6>
+							<div className="text">We build responsive, high-performance websites</div>
 						</div>
 					</div>
 
@@ -32,7 +32,7 @@ function ServicesHomeThree({ className }) {
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="400ms">
 						<div className="inner-box ">
 							<i className="icon flaticon-business-030-settings"></i>
-							<h6 className="title"><Link  to="/service-details">Security <br/>System</Link ></h6>
+							<h6 className="title"><Link  to="/service-details3">APP <br/>Development</Link ></h6>
 							<div className="text">Providing the solutions for tech business</div>
 						</div>
 					</div>
@@ -40,16 +40,16 @@ function ServicesHomeThree({ className }) {
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="600ms">
 						<div className="inner-box ">
 							<i className="icon flaticon-business-045-stationery"></i>
-							<h6 className="title"><Link  to="/service-details">UI/UX <br/>Designing</Link ></h6>
-							<div className="text">Providing the solutions for tech business</div>
+							<h6 className="title"><Link  to="/service-details1">UI/UX <br/>Designing</Link ></h6>
+							<div className="text">We craft user-friendly and visually stunning interfaces</div>
 						</div>
 					</div>
 
 					<div className="service-block-three col wow fadeInUp" data-wow-delay="800ms">
 						<div className="inner-box">
 							<i className="icon flaticon-business-054-graph"></i>
-							<h6 className="title"><Link  to="/service-details">Data <br/>Analysis</Link ></h6>
-							<div className="text">Providing the solutions for tech business</div>
+							<h6 className="title"><Link  to="/service-details2">Data <br/>Analysis</Link ></h6>
+							<div className="text">We harness data to strengthen your business decisions</div>
 						</div>
 					</div>
 				</div>

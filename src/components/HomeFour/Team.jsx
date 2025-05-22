@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link  } from 'react-router-dom';
-import TeamImage1 from '../../assets/images/resource/team-4.jpg';
-import TeamImage2 from '../../assets/images/resource/team-5.jpg';
-import TeamImage3 from '../../assets/images/resource/team-6.jpg';
-import TeamImage4 from '../../assets/images/resource/team-7.jpg';
+import TeamImage1 from '../../assets/images/resource/team-4.jpeg';
+import TeamImage2 from '../../assets/images/resource/team-7.jpeg';
+import TeamImage3 from '../../assets/images/resource/team-6.jpeg';
+import TeamImage4 from '../../assets/images/resource/team-6.jpeg';
 
 function TeamSectionTwo() {
     return (
@@ -11,7 +11,7 @@ function TeamSectionTwo() {
             <div className="auto-container">
                 <div className="sec-title text-center">
                     <span className="sub-title">Our team expert</span>
-                    <h2>Meet Professi</h2>
+                    <h2>Meet Professionals</h2>
                 </div>
 
                 <div className="row">
@@ -20,11 +20,11 @@ function TeamSectionTwo() {
                         <div className="inner-box">
                             <div className="info-box">
                                 <h5 className="name">
-                                    <Link  to="/team-details">Adman Michel</Link >
+                                    <Link  to="/team-details">Shahbaz Nawaz</Link >
                                 </h5>
-                                <span className="designation">Web Developer</span>
+                                <span className="designation">Serinor Developer</span>
                                 <span className="share-icon fa fa-share-alt"></span>
-                                <div className="social-Link s">
+                                <div className="social-Link d-flex items-center justify-content-start gap-2">
                                     <Link  to="#"><i className="fab fa-twitter"></i></Link >
                                     <Link  to="#"><i className="fab fa-facebook-f"></i></Link >
                                     <Link  to="#"><i className="fab fa-pinterest-p"></i></Link >
@@ -46,11 +46,11 @@ function TeamSectionTwo() {
                         <div className="inner-box">
                             <div className="info-box">
                                 <h5 className="name">
-                                    <Link  to="/team-details">Jessica Brown</Link >
+                                    <Link  to="/team-details">Abas Ali Akhter</Link >
                                 </h5>
-                                <span className="designation">Web Developer</span>
+                                <span className="designation">Serinor Developer</span>
                                 <span className="share-icon fa fa-share-alt"></span>
-                                <div className="social-Link s">
+                                <div className="social-Link d-flex items-center justify-content-start gap-2">
                                     <Link  to="#"><i className="fab fa-twitter"></i></Link >
                                     <Link  to="#"><i className="fab fa-facebook-f"></i></Link >
                                     <Link  to="#"><i className="fab fa-pinterest-p"></i></Link >
@@ -72,11 +72,11 @@ function TeamSectionTwo() {
                         <div className="inner-box">
                             <div className="info-box">
                                 <h5 className="name">
-                                    <Link  to="/team-details">Richerd William</Link >
+                                    <Link  to="/team-details">Miss Kainat</Link >
                                 </h5>
                                 <span className="designation">Web Developer</span>
                                 <span className="share-icon fa fa-share-alt"></span>
-                                <div className="social-Link s">
+                                <div className="social-Link d-flex items-center justify-content-start gap-2">
                                     <Link  to="#"><i className="fab fa-twitter"></i></Link >
                                     <Link  to="#"><i className="fab fa-facebook-f"></i></Link >
                                     <Link  to="#"><i className="fab fa-pinterest-p"></i></Link >
@@ -102,7 +102,7 @@ function TeamSectionTwo() {
                                 </h5>
                                 <span className="designation">Web Developer</span>
                                 <span className="share-icon fa fa-share-alt"></span>
-                                <div className="social-Link s">
+                                <div className="social-Link d-flex items-center justify-content-start gap-2">
                                     <Link  to="#"><i className="fab fa-twitter"></i></Link >
                                     <Link  to="#"><i className="fab fa-facebook-f"></i></Link >
                                     <Link  to="#"><i className="fab fa-pinterest-p"></i></Link >

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { Link  } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import BackToTop from '../BackToTop.jsx';
 import HomeOneHeader from '../HomeOne/HomeOneHeader.jsx';
 import FooterHomeOne from '../HomeThree/FooterHomeOne.jsx';
 import HeroPageTitle from './HeroPageTitle.jsx';
-import ServiceDetailsImage from '../../assets/images/resource/service-details.jpg';
+import ServiceDetailsImage from '../../assets/images/resource/service-details.jpeg';
 import ServiceDetailsBackground1 from '../../assets/images/resource/contact.jpg';
 import ServiceDetailsBackground2 from '../../assets/images/resource/overlay-shape.png';
 
@@ -20,8 +20,8 @@ function ServicesDetails() {
             <HeroPageTitle
                 title="Services Details"
                 breadcrumb={[
-                    { Link : '/', title: 'Home' },
-                    { Link : '/service-details', title: 'Services Details' },
+                    { Link: '/', title: 'Home' },
+                    { Link: '/service-details', title: 'Services Details' },
                 ]}
             />
             <section className="services-details">
@@ -36,41 +36,41 @@ function ServicesDetails() {
                                         <div className="service-list">
                                             <ul>
                                                 <li>
-                                                    <Link  to="/service-details" className="current">
+                                                    <Link to="/service-details" className="current">
                                                         <i className="fas fa-angle-right"></i>
                                                         <span>Digital Marketing</span>
                                                     </Link >
                                                 </li>
                                                 <li>
-                                                    <Link  to="/service-details">
+                                                    <Link to="/service-details1">
                                                         <i className="fas fa-angle-right"></i>
-                                                        <span>UI/UX Designing</span>
+                                                        <span>UI/UX Design</span>
                                                     </Link >
                                                 </li>
                                                 <li>
-                                                    <Link  to="/service-details">
-                                                        <i className="fas fa-angle-right"></i>
-                                                        <span>Product Development</span>
-                                                    </Link >
-                                                </li>
-                                                <li>
-                                                    <Link  to="/service-details">
+                                                    <Link to="/service-details2">
                                                         <i className="fas fa-angle-right"></i>
                                                         <span>Data Analysis</span>
                                                     </Link >
                                                 </li>
                                                 <li>
-                                                    <Link  to="/service-details">
+                                                    <Link to="/service-details4">
                                                         <i className="fas fa-angle-right"></i>
-                                                        <span>Security System</span>
+                                                        <span>Website Development</span>
                                                     </Link >
                                                 </li>
                                                 <li>
+                                                    <Link to="/service-details3" >
+                                                        <i className="fas fa-angle-right"></i>
+                                                        <span>APP Development</span>
+                                                    </Link >
+                                                </li>
+                                                {/* <li>
                                                     <Link  to="/service-details">
                                                         <i className="fas fa-angle-right"></i>
                                                         <span>Data Visualization</span>
                                                     </Link >
-                                                </li>
+                                                </li> */}
                                             </ul>
                                         </div>
                                     </div>
@@ -86,7 +86,7 @@ function ServicesDetails() {
                                                 <i className="lnr lnr-icon-pie-chart"></i>
                                             </div>
                                             <h3>Be healthy & eat only fresh</h3>
-                                            <Link  to="page-contact.html" className="theme-btn btn-style-two bg-light">
+                                            <Link to="page-contact.html" className="theme-btn btn-style-two bg-light">
                                                 <span className="btn-title text-black"> Contact us</span>
                                             </Link >
                                         </div>
@@ -95,7 +95,7 @@ function ServicesDetails() {
                                 {/* End Banner Widget */}
 
                                 {/* Start Services Details Sidebar Single */}
-                                <div className="sidebar-widget service-sidebar-single mt-5">
+                                {/* <div className="sidebar-widget service-sidebar-single mt-5">
                                     <div className="service-sidebar-single-btn wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1200m">
                                         <Link  to="#" className="theme-btn btn-style-one d-grid">
                                             <span className="btn-title">
@@ -103,7 +103,7 @@ function ServicesDetails() {
                                             </span>
                                         </Link >
                                     </div>
-                                </div>
+                                </div> */}
                                 {/* End Services Details Sidebar Single */}
                             </div>
                         </div>
@@ -114,9 +114,8 @@ function ServicesDetails() {
                             <div className="services-details__content">
                                 <img src={ServiceDetailsImage} alt="" />
                                 <h2 className="mt-4">Service Overview</h2>
-                                <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                <p>When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                                <div className="content mt-40">
+                                <p> We drive your business success with strategic digital marketing. Through social media campaigns, SEO, email marketing, and targeted ads, we boost your brand’s visibility and sales</p>
+                                {/* <div className="content mt-40">
                                     <div className="text">
                                         <h3>Service Center</h3>
                                         <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
@@ -161,52 +160,53 @@ function ServicesDetails() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="mt-25">
                                     <h3>Frequently Asked Question</h3>
-                                    <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                    <p>Here are Some Frequently asked questions that may help you</p>
                                     <ul className="accordion-box wow fadeInRight">
                                         <li className={`accordion block ${showQues === 1 ? 'active-block' : ''}`} onClick={() => openQuestion(1)}>
                                             <div className={`acc-btn ${showQues === 1 ? 'active' : ''}`}>
-                                                Is my technology allowed on tech?
+                                                Why is digital marketing important for my business?
                                                 <div className="icon fa fa-plus"></div>
                                             </div>
                                             <div className={`acc-content ${showQues === 1 ? 'current' : ''}`}>
                                                 <div className="content">
-                                                    <div className="text">There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.</div>
+                                                    <div className="text">It helps you reach a larger audience at a lower cost compared to traditional marketing. It’s also measurable, targeted, and offers real-time performance data.</div>
                                                 </div>
                                             </div>
                                         </li>
                                         <li className={`accordion block active-block ${showQues === 2 ? 'active-block' : ''}`} onClick={() => openQuestion(2)}>
                                             <div className={`acc-btn ${showQues === 2 ? 'active' : ''}`}>
-                                                How to soft launch your business?
+                                                How is digital marketing different from traditional marketing?
                                                 <div className="icon fa fa-plus"></div>
                                             </div>
                                             <div className={`acc-content ${showQues === 2 ? 'current' : ''}`}>
                                                 <div className="content">
-                                                    <div className="text">There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.</div>
+                                                    <div className="text">Traditional marketing relies on offline methods like TV, radio, and print, whereas digital marketing uses online platforms. Digital marketing is more cost-effective and allows precise audience targeting.</div>
                                                 </div>
                                             </div>
                                         </li>
                                         <li className={`accordion block active-block ${showQues === 3 ? 'active-block' : ''}`} onClick={() => openQuestion(3)}>
                                             <div className={`acc-btn ${showQues === 3 ? 'active' : ''}`}>
-                                                Can you manage my business?
+                                                What services do you offer in digital marketing?
                                                 <div className="icon fa fa-plus"></div>
                                             </div>
                                             <div className={`acc-content ${showQues === 3 ? 'current' : ''}`}>
                                                 <div className="content">
-                                                    <div className="text">There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.</div>
+                                                    <div className="text">We offer SEO, social media marketing, Google Ads, content marketing, email marketing, website design, and digital strategy consulting.</div>
                                                 </div>
                                             </div>
                                         </li>
                                         <li className={`accordion block active-block ${showQues === 4 ? 'active-block' : ''}`} onClick={() => openQuestion(4)}>
                                             <div className={`acc-btn ${showQues === 4 ? 'active' : ''}`}>
-                                                Why choose us?
+                                                How long does it take to see results from digital marketing?
+
                                                 <div className="icon fa fa-plus"></div>
                                             </div>
                                             <div className={`acc-content ${showQues === 4 ? 'current' : ''}`}>
                                                 <div className="content">
-                                                    <div className="text">There are many variations of passages the majority have suffered alteration in some fo injected humour, or randomised words believable.</div>
+                                                    <div className="text">It depends on the service. SEO takes 3–6 months, while paid ads and social media campaigns can show results within days or weeks.z</div>
                                                 </div>
                                             </div>
                                         </li>

@@ -37,6 +37,11 @@ import ProjectsDetails2 from "./components/ProjectsPages/ProjectDetails2.jsx";
 import ProjectsDetails3 from "./components/ProjectsPages/ProjectDetails3.jsx";
 import ProjectsDetails4 from "./components/ProjectsPages/ProjectDetails4.jsx";
 import ProjectsDetails5 from "./components/ProjectsPages/ProjectDetails5.jsx";
+import ServicesDetails1 from "./components/ServicesPages/ServicesDetails1.jsx";
+import ServicesDetails3 from "./components/ServicesPages/ServicesDetails3.jsx";
+import ServicesDetails4 from "./components/ServicesPages/ServicesDetails4.jsx";
+import ServicesDetails2 from "./components/ServicesPages/ServicesDetails2.jsx";
+import ServicesDetails5 from "./components/ServicesPages/ServicesDetails5.jsx";
 
 
 const router = createBrowserRouter([
@@ -183,7 +188,27 @@ const router = createBrowserRouter([
       },
       {
         path: "/service-details",
-        element: <ServicesDetails />
+        element: <Services  Details />
+      },
+      {
+        path: "/service-details1",
+        element: <ServicesDetails1 />
+      },
+      {
+        path: "/service-details2",
+        element: <ServicesDetails2 />
+      },
+      {
+        path: "/service-details3",
+        element: <ServicesDetails3 />
+      },
+      {
+        path: "/service-details4",
+        element: <ServicesDetails4 />
+      },
+      {
+        path: "/service-details5",
+        element: <ServicesDetails5 />
       },
       {
         path: "/pricing",

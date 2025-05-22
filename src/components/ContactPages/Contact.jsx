@@ -73,7 +73,7 @@ function Contact() {
 								</div>
 								<div className="text">
 									<h6>Have any question?</h6>
-									<a href="tel:980089850"><span>Free</span> +92 (020)-9850</a>
+									<a href="tel:980089850"><span>Free</span> +92 336 3313364</a>
 								</div>
 							</li>
 							<li>
@@ -91,7 +91,8 @@ function Contact() {
 								</div>
 								<div className="text">
 									<h6>Visit anytime</h6>
-									<span>66 broklyn golden street. New York</span>
+									<div>HOUSE 251 Block W, Scheme 3 W Block Farid Town, Farid Town, Sahiwal</div>
+									
 								</div>
 							</li>
 						</ul>
@@ -103,7 +104,7 @@ function Contact() {
 	<section>
 		<div className="container-fluid p-0">
 			<div className="row">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.4363156640234!2d73.06872988726491!3d30.67799772282486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922b7fcbd124599%3A0x154f7ea00cd47ae7!2sAl%20Nawaz%20Foundation!5e0!3m2!1sen!2s!4v1746539119168!5m2!1sen!2s" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86103.62314832346!2d74.35576563699348!3d31.416058818743544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922c90023d23f63%3A0xa29d4a9a0896640c!2sThe%20Success%20Sahiwal%20Community!5e0!3m2!1sen!2s!4v1747926456776!5m2!1sen!2s" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 		</div>
 	</section>
